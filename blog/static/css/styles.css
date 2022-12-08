@@ -1,0 +1,56 @@
+:root{
+    --color-text: #3a3a3a;
+    --color-bg: #707789;
+    --font-tittle: first_coffee;
+    --font-text: party_confetti;
+}
+@font-face {
+    font-family: first_coffee;
+    src: url('../fonts/first_coffee.ttf');
+}
+
+@font-face {
+    font-family: party_confetti;
+    src: url('../fonts/party_confetti.ttf');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-tittle);
+}
+
+.display-5{
+    font-family: var(--font-tittle);
+    margin-left: 80px;
+}
+.container {
+    margin-bottom: -40px;
+}
+
+.btn {
+    color: #3a3a3a;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.lead {
+    font-family: var(--font-text);
+    margin-top: 40px;
+}
+.nav{
+    text-decoration: none;
+    font-family: var(--color-text);
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--font-tittle);
+    margin-top: 5px;
+}
+
+.principal {
+    border-radius: 15px;
+    border-style: outset;
+}
+
+.ms-3 {
+    color: #3a3a3a;
+    margin-right: 10px;
+    padding-left: 15px;
+}
